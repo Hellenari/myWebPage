@@ -1,0 +1,25 @@
+body {
+  background: #ffb7c7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  }
+  
+h1 {
+   color: #000000;
+  }
+  
+p {
+    color: #000000;
+  }
+
+.hidden {
+    display: none;
+  }
+
+  .photoContainer img {
+    width: 300px;
+    height: auto;
+    margin: 5px;
+  }

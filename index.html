@@ -1,7 +1,29 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Моя веб-страница</title>
+    <link rel="stylesheet" type="text/css" href="css/MyWebPage.css">
+  </head>
+  <body>
+    <h1>Моя первая веб-страница</h1>
+    <p>
+      Привет, меня зовут Ксения! У меня есть кот и две крыски. Вот наши фото:
+    </p>
+
+     <p class="photoContainer">
+      <img src="photo/photo2.jpg" alt="Фото 2" class="photo">
+      <img src="photo/photo3.jpg" alt="Фото 3" class="photo">
+    </p>
+
+    <button onclick="toggleInfo()">Показать больше информации</button>
+    
+    <p id="moreInfo" class="hidden">
+        Я учусь в Южно-Уральском государственном колледже,
+        моя специальность - информационные системы и программирование.
+        Пока мы изучали только C++, поэтому это действительно первая веб-страница, которую я создала :)
+    </p>
+
+    <script src="js/MyWebPage.js"></script>
+  </body>
 </html>
